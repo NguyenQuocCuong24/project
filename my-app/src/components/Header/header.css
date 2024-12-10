@@ -1,0 +1,82 @@
+/* Container for dropdowns */
+.nav-item {
+    position: relative;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    z-index: 10;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    /* Không dùng border-radius */
+}
+
+/* Khi hover vào dropdown */
+.nav-item:hover .dropdown-menu {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+/* Styling for dropdown items */
+.dropdown-menu li {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Hover effect for items */
+.dropdown-menu li:hover {
+    background-color: #357ef5;
+}
+
+/* Styling for links in the dropdown */
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Hover effect on links */
+.dropdown-menu li a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* Styling for nested dropdowns */
+.dropdown-menu li li {
+    margin-top: 5px;
+}
+
+/* Nút Đăng Nhập */
+.btn-light {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+/* Hiệu ứng khi hover */
+.btn-light:hover {
+    background-color: #d3d3d3;
+    color: black;
+}
+
+/* Ẩn mũi tên đi xuống của dropdown */
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* Mặc định, menu sẽ ẩn đi ở màn hình nhỏ */
+.d-none {
+    display: none;
+}
+
+/* Khi menu mở */
+.d-block {
+    display: block;
+}

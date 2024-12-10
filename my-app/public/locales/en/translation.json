@@ -1,0 +1,70 @@
+{
+    "home": {
+      "banner": {
+        "title": "Simplify Asset Management, Maximize",
+        "subtitle": "Sustainable Growth",
+        "description": "Comprehensive and personalized investment consulting and asset management services for investors to grow assets sustainably and prosperously.",
+        "button": "Contact for advice now"
+      },
+      "stats": {
+        "experience": "18 years",
+        "experience_description": "Experience in investment and asset management",
+        "total_assets": "10K+ billion VND",
+        "total_assets_description": "Total assets under management",
+        "performance": "24.9%/year",
+        "performance_description": "Average investment performance over 10 years",
+        "team_experience": "12+ years",
+        "team_experience_description": "Average years of experience of the asset management team"
+      },
+      "why_choose_us": {
+        "heading": "Why choose",
+        "subheading": "Investment Consulting and Asset Management with us?",
+        "sustainable_growth": {
+          "title": "Optimize Sustainable Growth",
+          "description": "Investment services with market-leading growth over the past decade by selecting appropriate asset allocation for value investments and strictly adhering to risk management principles."
+        },
+        "expert_team": {
+          "title": "Top Expert Team",
+          "description": "Experienced portfolio management experts with high ethical standards, professional investment processes, and strict risk control."
+        },
+        "transparent_info": {
+          "title": "Transparent and Intuitive Information",
+          "description": "Professional, transparent, and intuitive reporting systems help investors monitor and manage assets 24/7."
+        }
+      },
+      "investment_philosophy": {
+        "title": "Investment Philosophy",
+        "subtitle": "Deliver sustainable and superior returns to investors through flexible asset allocation strategies and effective risk management capabilities.",
+        "button": "Learn more"
+      },
+      "investment_services": {
+        "heading": "Investment Services",
+        "subheading": "We provide investment options tailored to the financial goals of each investor. You will always feel secure with the guidance of experienced and trustworthy professionals.",
+        "trust": {
+          "title": "Entrusted Asset Management",
+          "description": "Your assets are directly managed by professional and experienced portfolio management experts."
+        },
+        "advice": {
+          "title": "Investment Consulting",
+          "description": "Investors make their own investment decisions based on specific advice from our team of investment consultants."
+        },
+        "support": {
+          "title": "Transaction Support",
+          "description": "Investors trade independently and privately on a smart, multi-functional trading platform."
+        },
+        "learn_more": "Learn more"
+      },
+      "contact_us": {
+        "heading": "Contact for Advice",
+        "subheading": "If you have any questions, please leave your information. Our team of experts will respond as soon as possible."
+      },
+      "form": {
+        "name_placeholder": "Your Name",
+        "email_placeholder": "Email Address",
+        "phone_placeholder": "Phone Number",
+        "message_placeholder": "Message",
+        "submit_button": "Submit Request"
+      }
+    }
+  }
+  

@@ -1,0 +1,50 @@
+.button-investment-trust {
+    margin: 20px;
+    /* Điều chỉnh khoảng cách từ góc trên phải */
+}
+
+.stepper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+
+.step-icon img {
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.step-content {
+    margin-top: 10px;
+}
+
+.step-connector {
+    position: absolute;
+    top: 22px;
+    left: calc(100% + 10px);
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+}
+
+.step-item.completed .step-icon img {
+    background-color: #4caf50;
+}
+
+.step-item.completed .step-connector {
+    background-color: #4caf50;
+}
+
+.step-item.active .step-icon img {
+    background-color: #2196f3;
+}

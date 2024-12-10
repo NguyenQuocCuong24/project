@@ -1,0 +1,365 @@
+/* Container bao quanh ảnh và nội dung */
+.banner-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CSS cho ảnh banner */
+.banner {
+    padding-top: 30px;
+    width: 100%;
+    height: 700px;
+    /* Chiều cao ảnh */
+    object-fit: cover;
+
+}
+
+/*  */
+.breadcrumb {
+    position: absolute;
+    top: 50px;
+    /* Khoảng cách từ trên xuống */
+    left: 10px;
+    /* Khoảng cách từ trái sang */
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    /* Đảm bảo breadcrumb nằm trên banner */
+}
+
+.breadcrumb-link {
+    color: #156df0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-separator {
+    margin: 0 5px;
+    color: #ffffff;
+}
+
+.breadcrumb-current {
+    color: rgb(10, 111, 227);
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.breadcrumb-divider {
+    position: absolute;
+    top: 90px;
+    /* Đặt thẻ <hr /> dưới breadcrumb */
+    left: 0;
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #c0bdbd;
+    /* Màu trắng cho đường kẻ */
+    margin: 0;
+    z-index: 5;
+    /* Đảm bảo thẻ <hr /> nằm dưới breadcrumb */
+}
+
+.start {
+    background-color: #fff;
+    color: rgb(26, 25, 25);
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* Căn lề trái */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    gap: 20px;
+    z-index: 10;
+
+}
+
+
+.border-l-4 {
+    border-left: 5px solid #2a8ffb;
+    padding: 10px;
+    margin-left: 0;
+
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 400;
+    font-size: 2.7rem;
+    font-family: "Arial", sans-serif;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+
+.text-container h1 {
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+
+.text-container h2 {
+    font-weight: 400;
+    font-size: 2.7rem;
+    color: #124E91;
+}
+
+
+/*----------------- hoi dong dau tu -------------------*/
+.container-2 {
+    margin-top: 200px;
+    text-align: center;
+    padding: 40px 100px;
+    width: 100%;
+
+}
+
+.heading2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.subheading2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/*--------------------4 ảnh in4 -------------------*/
+
+
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 750px);
+    gap: 50px;
+    justify-content: center;
+    position: relative;
+    padding: 40px;
+}
+
+@media (max-width: 700px) {
+    .container-3 {
+        grid-template-columns: 1fr;
+    }
+}
+
+.row-3 {
+    display: contents;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Căn lề trái */
+    text-align: left;
+    /* Căn văn bản bên trong sang trái */
+    height: auto;
+    background-color: rgb(240, 242, 246);
+    /* Màu nền xám */
+    padding: 30px;
+    /* Khoảng cách bên trong khung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Thêm bóng đổ nhẹ */
+
+}
+
+.avt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.avt img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* Làm tròn ảnh */
+    margin-right: 30px;
+    margin-left: 0;
+    /* margin-bottom: 30px; */
+}
+
+.name-role h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name-role h5:first-child {
+    font-weight: bold;
+}
+
+.info {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: rgb(97 100 103)
+}
+
+.info ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.info li {
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+/*---------------------------------- giám dôc dau tu --------------------------------*/
+
+.container-custom {
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px 100px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.custom-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    /* Căn giữa các cột */
+    align-items: stretch;
+    /* Đảm bảo tất cả các cột có chiều cao bằng nhau */
+}
+
+.custom-row {
+    display: contents;
+}
+
+.custom-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* Đảm bảo các cột có chiều cao bằng nhau */
+    background-color: rgb(240, 242, 246);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.custom-avt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-avt img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.custom-name-role h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-name-role h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+.custom-info {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: rgb(97, 100, 103);
+    text-align: center;
+}
+
+.custom-info ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.custom-info li {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    line-height: 2;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .custom-container {
+        grid-template-columns: 1fr;
+        /* Chuyển thành 1 cột khi màn hình nhỏ */
+    }
+
+    .custom-col {
+        padding: 20px;
+        /* Giảm khoảng cách giữa các cột khi thu nhỏ */
+    }
+
+    .custom-avt img {
+        width: 80px;
+        /* Thu nhỏ kích thước ảnh khi màn hình nhỏ */
+        height: 80px;
+    }
+
+    .custom-name-role h1 {
+        font-size: 1.2rem;
+        /* Thu nhỏ font-size cho tên khi thu nhỏ màn hình */
+    }
+
+    .custom-name-role h5 {
+        font-size: 1rem;
+        /* Thu nhỏ font-size cho vai trò khi thu nhỏ màn hình */
+    }
+
+    .custom-info li {
+        font-size: 1.1rem;
+        /* Thu nhỏ font-size trong danh sách khi thu nhỏ màn hình */
+    }
+}

@@ -1,0 +1,259 @@
+.investment-container-custom {
+    margin-top: 200px;
+    text-align: center;
+    padding: 40px 100px;
+    width: 100%;
+
+}
+
+.investment-container {
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 50px;
+
+}
+
+.investment-banner-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.investment-banner {
+    padding-top: 30px;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+
+/* Phần bên trái */
+.left-content {
+    background-color: #f0f0f0;
+    /* Màu nền xám nhạt */
+    padding: 20px;
+    /* Khoảng cách bên trong */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: left;
+}
+
+/* Văn bản trong phần bên trái */
+.text-content {
+    max-width: 80%;
+    /* Giới hạn chiều rộng nội dung */
+}
+
+/* Phần bên phải */
+.right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hình ảnh trong phần bên phải */
+
+
+/* Thẻ p đầu tiên trong left-content */
+.left-content p:first-of-type {
+    font-size: 3.5rem;
+    /* Cỡ chữ lớn */
+    line-height: 1.5;
+    /* Khoảng cách dòng */
+    font-weight: 300;
+    /* Độ dày chữ mỏng */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới */
+}
+
+/* Các thẻ p còn lại trong left-content */
+.left-content p:not(:first-of-type) {
+    font-size: 1.3rem;
+    /* Chữ to hơn mặc định */
+    color: #6c757d;
+    /* Màu xám nhạt của Bootstrap */
+    font-weight: 300;
+    /* Độ dày chữ mỏng */
+    line-height: 1.6;
+    /* Tăng khoảng cách dòng để dễ đọc */
+}
+
+.container-heading {
+    margin-top: 50px;
+    text-align: center;
+    padding: 40px 10px;
+    width: 100%;
+
+}
+
+.investment-section {
+    background-color: #fff;
+    /* Nền xám */
+    padding: 40px ;
+    /* Khoảng cách trên và dưới */
+}
+
+.investment-custom-container {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa các cột */
+}
+
+.investment-custom-info {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100%; */
+}
+
+.startt {
+    background-color: #fff;
+    color: rgb(26, 25, 25);
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* Căn lề trái */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.investment-overlay {
+    position: absolute;
+    bottom: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    gap: 20px;
+    z-index: 10;
+}
+
+.heading-investment {
+    padding-top: 40px;
+    font-size: 2.7rem;
+    font-weight: 350;
+    margin-bottom: 40px;
+    color: black;
+    font-family: 'Roboto', sans-serif;  
+  
+}
+
+.subheading-investment {
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #040404;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 3 bước  */
+.investment-heading {
+    font-size: 2.7rem;
+    font-weight: 350;
+    margin-bottom: 50px;
+    color: black;
+    padding-top: 50px;
+}
+
+.investment-subheading {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 70px;
+    color: #040404;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+/* Custom Container */
+.investment-custom-container {
+    margin-top: 20px;
+    padding-left: 0;
+    /* Xóa padding thừa */
+    padding-right: 0;
+}
+
+/* Đổi thành 3 cột */
+.investment-custom-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Hiển thị 3 cột đều nhau */
+    gap: 40px;
+    /* Khoảng cách giữa các cột */
+    justify-items: start;
+    /* Căn lề trái cho các cột */
+}
+
+/* Custom Col */
+.investment-custom-col {
+    display: flex;
+    flex-direction: column;
+    /* Sắp xếp nội dung theo cột */
+    align-items: flex-start;
+    /* Căn lề trái cho từng phần tử trong cột */
+    justify-content: flex-start;
+    /* Căn lề trên cho phần tử */
+    height: auto;
+    background-color: rgb(240, 242, 246);
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* Căn lề trái cho văn bản */
+}
+
+/* Custom Info */
+/* Chỉnh sửa cho phần "Thấu hiểu khách hàng" */
+.investment-custom-info {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Điều chỉnh để căn lề trên */
+    text-align: left;
+    margin-bottom: 0;
+    /* Loại bỏ margin-bottom không cần thiết */
+}
+
+.investment-custom-info h3 {
+    font-weight: 350;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    /* Giảm khoảng cách dưới của tiêu đề */
+}
+
+.investment-custom-info p {
+    margin-bottom: 10px;
+    /* Giảm khoảng cách dưới của văn bản */
+    font-size: 1.3rem;
+    line-height: 2;
+    color: #606161;
+    text-align: left;
+}
+
+
+.investment-custom-info ul {
+    margin: 0;
+    list-style-position: inside;
+    text-align: left;
+    /* Căn lề trái cho các mục trong ul */
+}

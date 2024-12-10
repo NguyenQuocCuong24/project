@@ -1,0 +1,70 @@
+{
+    "home": {
+      "banner": {
+        "title": "Đơn giản hóa Quản lí tài sản, tối đa",
+        "subtitle": "Tăng trưởng bền vững",
+        "description": "Dịch vụ Tư vấn đầu tư, Quản lý tài sản toàn diện và cá nhân hóa cho Nhà đầu tư nhằm phát triển tài sản bền vững và thịnh vượng.",
+        "button": "Liên hệ tư vấn ngay"
+      },
+      "stats": {
+        "experience": "18 năm",
+        "experience_description": "Kinh nghiệm đầu tư và quản lý tài sản",
+        "total_assets": "10K+ tỷ đồng",
+        "total_assets_description": "Tổng tài sản quản lý",
+        "performance": "24.9%/năm",
+        "performance_description": "Hiệu suất đầu tư trung bình trong 10 năm",
+        "team_experience": "12+ năm",
+        "team_experience_description": "Số năm kinh nghiệm trung bình của đội ngũ quản lý tài sản"
+      },
+      "why_choose_us": {
+        "heading": "Vì sao lựa chọn",
+        "subheading": "Tư vấn và Ủy thác quản lý tài sản cùng chúng tôi?",
+        "sustainable_growth": {
+          "title": "Tối ưu Tăng trưởng bền vững",
+          "description": "Dịch vụ đầu tư với mức tăng trưởng hàng đầu thị trường trong vòng hơn một thập kỷ vừa qua bằng việc lựa chọn phân bổ tài sản phù hợp vào các khoản đầu tư giá trị và tuân thủ nghiêm ngặt các nguyên tắc quản trị rủi ro."
+        },
+        "expert_team": {
+          "title": "Đội ngũ Chuyên gia hàng đầu",
+          "description": "Đội ngũ chuyên gia quản lý danh mục giàu kinh nghiệm, làm việc với chuẩn mực đạo đức cao, áp dụng quy trình đầu tư chuyên nghiệp và kiểm soát rủi ro chặt chẽ."
+        },
+        "transparent_info": {
+          "title": "Thông tin minh bạch, trực quan",
+          "description": "Hệ thống báo cáo chuyên nghiệp, minh bạch, trực quan giúp Nhà đầu tư theo dõi và quản lý tài sản 24/7."
+        }
+      },
+      "investment_philosophy": {
+        "title": "Triết lý đầu tư",
+        "subtitle": "Đem lại lợi nhuận bền vững và vượt trội cho Nhà đầu tư nhờ Chiến lược phân bổ tài sản linh hoạt và khả năng Quản lý rủi ro hiệu quả",
+        "button": "Xem thêm"
+      },
+      "investment_services": {
+        "heading": "Dịch vụ đầu tư",
+        "subheading": "Chúng tôi cung cấp các lựa chọn đầu tư phù hợp với mục tiêu tài chính của riêng nhà đầu tư. Bạn sẽ luôn an tâm với sự đồng hành của những chuyên gia kinh nghiệm và chính trực.",
+        "trust": {
+          "title": "Uỷ thác Quản lý tài sản",
+          "description": "Tài sản của Nhà đầu tư được quản lý trực tiếp bởi các chuyên gia Quản lý danh mục chuyên nghiệp và giàu kinh nghiệm."
+        },
+        "advice": {
+          "title": "Tư vấn đầu tư",
+          "description": "Nhà đầu tư làm chủ quyết định đầu tư, dựa trên những tư vấn cụ thể của Đội ngũ chuyên gia tư vấn đầu tư."
+        },
+        "support": {
+          "title": "Hỗ trợ giao dịch",
+          "description": "Nhà đầu tư giao dịch độc lập và riêng tư trên nền tảng giao dịch thông minh, đa tiện ích."
+        },
+        "learn_more": "Tìm hiểu thêm"
+      },
+      "contact_us": {
+        "heading": "Liên hệ tư vấn",
+        "subheading": "Nếu Quý nhà đầu tư có thắc mắc, xin vui lòng để lại thông tin. Đội ngũ chuyên gia của chúng tôi sẽ phản hồi trong thời gian sớm nhất."
+      },
+      "form": {
+        "name_placeholder": "Tên của bạn",
+        "email_placeholder": "Địa chỉ email",
+        "phone_placeholder": "Số điện thoại",
+        "message_placeholder": "Lời nhắn",
+        "submit_button": "Gửi yêu cầu"
+      }
+    }
+  }
+  

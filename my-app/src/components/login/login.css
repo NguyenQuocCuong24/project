@@ -1,0 +1,64 @@
+/* Đảm bảo ảnh nền phủ toàn màn hình */
+body, html {
+    height: auto;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Chọn phông chữ cho toàn bộ trang */
+}
+
+/* Container của login form */
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* Nền mờ để ảnh vẫn hiển thị phía sau */
+    z-index: 10;
+}
+
+/* Ảnh nền full màn hình */
+.login-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    z-index: -1; /* Đặt ảnh dưới form */
+}
+
+/* Thiết kế cho input đăng nhập */
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Thiết kế cho nút đăng nhập */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Hiển thị lỗi nếu có */
+.login-error {
+    color: red;
+    margin-top: 10px;
+}
